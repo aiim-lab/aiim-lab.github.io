@@ -1,19 +1,351 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manpreet Singh | Research Portfolio</title>
+  <meta
+    name="description"
+    content="Manpreet Singh - Research portfolio in neuroimaging, machine learning, spatial transcriptomics, and computational biology."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">MS</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <h1>Hello, I'm Manpreet 👋</h1>
-    <p>Welcome to my GitHub website!</p>
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">PhD Researcher | Computational Biology | Neuroimaging</p>
+          <h1>Manpreet Singh</h1>
+          <p class="lead">
+            I work at the intersection of neuroimaging, machine learning, molecular omics,
+            and computational biology, with a focus on healthy aging, dementia, vascular brain injury,
+            and translational biomarker discovery.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#research">View Research</a>
+            <a class="btn btn-secondary" href="assets/Manpreet_Singh_CV.pdf" target="_blank">Download CV</a>
+          </div>
+          <div class="quick-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">LinkedIn</a>
+            <a href="mailto:your.email@example.com">Email</a>
+          </div>
+        </div>
 
+        <div class="hero-card">
+          <img src="assets/profile.jpg" alt="Portrait of Manpreet Singh" class="profile-image" />
+          <div class="hero-card-content">
+            <h2>Current Focus</h2>
+            <ul>
+              <li>White matter hyperintensity genetics</li>
+              <li>Neurodegeneration and vascular brain injury</li>
+              <li>Spatial transcriptomics</li>
+              <li>Radiology NLP and foundation models</li>
+              <li>Biomarker discovery across the brain-body axis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">About</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="card">
+          <p>
+            I am a researcher with training in biotechnology, neuroimaging, and computational analysis.
+            My work integrates statistical genetics, machine learning, imaging, and omics approaches to
+            study aging and age-related brain disorders. I am particularly interested in understanding how
+            vascular injury, molecular pathways, and peripheral organ systems contribute to dementia risk
+            and progression.
+          </p>
+          <p>
+            My projects span tissue- and cell-specific heritability analysis, disease progression modeling,
+            spatial transcriptomics, automated image segmentation, and natural language processing of clinical
+            radiology reports. I enjoy building reproducible pipelines that connect biological questions to
+            clinically meaningful insights.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Research</p>
+          <h2>Research Interests</h2>
+        </div>
+        <div class="grid three-col">
+          <article class="card feature-card">
+            <h3>Neuroimaging & Brain Aging</h3>
+            <p>
+              Investigating white matter hyperintensities, vascular brain injury, choroid plexus alterations,
+              and imaging-based markers of neurodegeneration across aging and dementia.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <h3>Statistical Genetics</h3>
+            <p>
+              Using LDSC, MAGMA, FUSION, and related approaches to identify tissue- and cell-specific
+              genetic enrichment patterns and shared mechanisms across WMHs and Alzheimer’s disease.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <h3>Spatial & Molecular Omics</h3>
+            <p>
+              Integrating spatial transcriptomics, antibody capture data, and molecular profiling to
+              characterize tissue states, immune infiltration, and disease-associated cellular programs.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <h3>Machine Learning for Medicine</h3>
+            <p>
+              Applying deep learning and progression modeling to segmentation, patient subtyping,
+              radiology-report classification, and biomarker prediction.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <h3>Brain-Body Interactions</h3>
+            <p>
+              Exploring how systemic organ systems such as liver, kidney, heart, and vasculature relate
+              to brain pathology and neurodegenerative disease.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <h3>Translational Biomarkers</h3>
+            <p>
+              Identifying clinically relevant biomarkers and therapeutic targets by integrating imaging,
+              genetics, proteomics, and computational modeling.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2>Selected Projects</h2>
+        </div>
+
+        <div class="grid two-col">
+          <article class="card project-card">
+            <h3>Brain-Body Axis of White Matter Hyperintensities</h3>
+            <p>
+              Characterizing tissue- and cell-specific partitioned heritability of white matter
+              hyperintensities and identifying shared genetic architecture with Alzheimer’s disease
+              and related dementias.
+            </p>
+            <p class="tags">LDSC · MAGMA · FUSION · HPA · STRING</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>SuStaIn Modeling of WMH Topography</h3>
+            <p>
+              Applying subtype and stage inference to arterial-territory and lobar WMH burden to
+              identify progression patterns, disease subtypes, hemispheric asymmetry, and clinical associations.
+            </p>
+            <p class="tags">SuStaIn · Python · Neuroimaging · Disease Progression</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Spatial Transcriptomics in Myocarditis</h3>
+            <p>
+              Analyzing Visium spatial transcriptomics and antibody capture data to map immune cell
+              distributions, tissue states, and spatially localized inflammatory programs in myocarditis.
+            </p>
+            <p class="tags">Seurat · semla · Visium · Spatial Omics</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Neu-RadBERT for Radiology Report Classification</h3>
+            <p>
+              Building NLP pipelines to classify non-mutually exclusive brain abnormalities from
+              free-text radiology reports using transformer-based language models.
+            </p>
+            <p class="tags">Transformers · NLP · Radiology · Clinical AI</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>ASCHOPLEX Fine-Tuning for Choroid Plexus Segmentation</h3>
+            <p>
+              Evaluating and fine-tuning deep-learning-based segmentation of the choroid plexus in
+              multi-center neurodegenerative cohorts, with benchmarking against expert manual masks.
+            </p>
+            <p class="tags">Deep Learning · MRI · Segmentation · Clinical Imaging</p>
+          </article>
+
+          <article class="card project-card">
+            <h3>Multi-Omic Biomarker Discovery</h3>
+            <p>
+              Integrating metabolomics, imaging, genetics, and proteomic evidence to identify biomarkers
+              linked to healthy aging, dementia, and vascular injury.
+            </p>
+            <p class="tags">Metabolomics · Biomarkers · Omics Integration</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Publications</p>
+          <h2>Publications & Manuscripts</h2>
+        </div>
+
+        <div class="stack">
+          <article class="card publication-card">
+            <h3>White Matter Hyperintensities and Alzheimer’s Disease Across the Brain-Body Axis</h3>
+            <p class="pub-meta">Manpreet Singh, et al. | Manuscript in preparation</p>
+            <p>
+              Tissue- and cell-specific heritability analyses to identify shared and distinct biological
+              mechanisms between WMHs and AD across organ systems.
+            </p>
+          </article>
+
+          <article class="card publication-card">
+            <h3>SuStaIn Modeling of Arterial-Territory and Lobar WMH Patterns</h3>
+            <p class="pub-meta">Manpreet Singh, et al. | Manuscript in preparation</p>
+            <p>
+              Data-driven subtype and stage inference of WMH burden to characterize vascular and
+              neurodegenerative phenotypes.
+            </p>
+          </article>
+
+          <article class="card publication-card">
+            <h3>Neu-RadBERT for Enhanced Diagnosis of Brain Injuries and Conditions</h3>
+            <p class="pub-meta">Manpreet Singh, et al. | Under revision</p>
+            <p>
+              Transformer-based radiology NLP framework for multi-label classification of brain imaging
+              abnormalities from free-text clinical reports.
+            </p>
+          </article>
+        </div>
+
+        <p class="note">
+          Replace these entries with your published papers, preprints, DOI links, or PubMed links.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="grid two-col">
+          <div class="card">
+            <h3>Programming & Analysis</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>R</li>
+              <li>SQL</li>
+              <li>Jupyter Notebook</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Bioinformatics & Imaging Tools</h3>
+            <ul class="skill-list">
+              <li>Seurat</li>
+              <li>semla</li>
+              <li>LDSC</li>
+              <li>MAGMA</li>
+              <li>FUSION</li>
+              <li>STRING</li>
+              <li>SuStaIn</li>
+              <li>QuPath</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Machine Learning</h3>
+            <ul class="skill-list">
+              <li>scikit-learn</li>
+              <li>PyTorch</li>
+              <li>Hugging Face Transformers</li>
+              <li>Model Evaluation</li>
+              <li>Deep Learning for Medical Imaging</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Research Domains</h3>
+            <ul class="skill-list">
+              <li>Neuroimaging</li>
+              <li>Statistical Genetics</li>
+              <li>Spatial Transcriptomics</li>
+              <li>Aging & Dementia</li>
+              <li>Computational Biology</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Contact</p>
+          <h2>Get in Touch</h2>
+        </div>
+
+        <div class="card contact-card">
+          <p>
+            I’m interested in collaborations in neuroimaging, computational biology, spatial omics,
+            machine learning, and translational neuroscience.
+          </p>
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:your.email@example.com">Email Me</a>
+            <a class="btn btn-secondary" href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/your-linkedin/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Manpreet Singh. All rights reserved.</p>
+      <p>Built with GitHub Pages.</p>
+    </div>
+  </footer>
 </body>
 </html>
